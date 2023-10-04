@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+body {
+  background: url('./public/images/bgHome.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+header div {
+  width: 500px;
+}
+
+.headerContainer ul {
+  display: flex;
+
+
+}
+
+.headerContainer ul li {
+  padding-left: 2rem;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.headerContainer a {
+  text-decoration: none;
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.18px;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFBF6;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 17px;
+
+}
+
+main section{
+  width: 731px;
+height: 537px;
+flex-shrink: 0;
+border-radius: 731px;
+border: 19px solid rgba(197, 170, 148, 0.47);
+background: rgba(220, 173, 131, 0.49);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.formContainer{
+  margin: 8rem auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.formContainer form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+ 
+}
+
+.formContainer label{
+  color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Suez One;
+font-size: 18px;
+}
+
+.formContainer input{
+ background-color: rgba(0, 0, 0, 0.15);
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 138%; /* 20.7px */
+letter-spacing: 0.15px;
+border: none;
+}
+
+.formContainer textarea{
+  background-color: rgba(0, 0, 0, 0.15);
+font-family: Cabin;
+font-size: 15px;
+font-weight: 400;
+line-height: 138%; /* 20.7px */
+letter-spacing: 0.15px;
+border: none;
+margin-top: 2rem;
+outline: none;
+}
+
+button{
+  width: 75px;
+height: 34px;
+color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+background-color: #8f7661;
+border: none;
+margin-top: 10rem;
+border-radius: 50%;
+outline: none;
+}
+
+footer nav ul {
+  display: flex;
+}

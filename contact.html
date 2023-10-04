@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
 </head>
-
 <body>
   <header>
     <figure>
@@ -15,30 +13,43 @@
     </figure>
 
     <div>
-      <nav class="headerContainer">
+          <nav class="headerContainer">
         <ul>
           <li><a href="">&#8814;Home&#62;</a></li>
           <li><a href="./about.html">&#8814;About&#62;</a></li>
           <li><a href="">&#8814;Project&#62;</a></li>
-          <li><a href="./contact.html">&#8814;Contact&#62;</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
 
-    <section class="container">
-      <div class="imag">
-        <figure><img src="./public/images/women.png" alt="" srcset=""></figure>
-      </div>
+    <section class="formContainer">
+      <!-- <img class="call" src="./public/images/call.png" alt=""> -->
 
-      <div class="presentation">
-        <p>Hello, my name is <span class="name">Yáshina Gomes</span> <br>This is my portfolio!</p>
+      <form id="myForm" action="https://formspree.io/f/meqbkddq" method="POST" target="_blank">
 
-        <img class="cat" src="./public/images/cat-on-laptop.png" alt="" srcset="">
-        <img2 class="book" src="./public/images/moving-box-with-cameras-guitar-and-books.png" alt="" srcset="">
-      </div>
+        <div class="formContent">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="_replyto" placeholder="Informe seu e-mail">
+        </div>
+
+        <div class="formContent">
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+
+
+
+        <button id="my-form-button" type="submit" class="submit">Enviar</button>
+
+        <p id="my-form-status"></p>
+
+
+      </form>
+
     </section>
+
   </main>
 
   <footer>
@@ -53,10 +64,9 @@
         <li><a href=""><img src="./public/images/linked-in.png" alt="" srcset=""></a></li>
       </ul>
     </nav>
-    <hr>
+<hr>
     <p>© 2023 DEVELOPED BY YASHINA MACIEL. ALL RIGHTS RESERVED.</p>
   </footer>
-
+  
 </body>
-
 </html>
